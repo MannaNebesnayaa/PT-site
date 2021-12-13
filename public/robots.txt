@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://affectionate-babbage-0fa1bd.netlify.app/sitemap-index.xml
