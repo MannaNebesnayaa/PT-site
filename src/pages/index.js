@@ -37,7 +37,9 @@ export default (() => {
 				width="100%"
 				margin="0px 10% 0px 10%"
 				max-width="none"
-				sm-margin="0px 10% 0px 5%"
+				sm-margin="0px 0px 0px 0px"
+				sm-display="flex"
+				sm-align-items="stretch"
 			/>
 			<Stack margin="0 0px 0px 0px" quarkly-title="Stack_header" sm-align-items="center">
 				{"    "}
@@ -63,7 +65,6 @@ export default (() => {
 					/>
 					<Text
 						margin="0"
-						md-margin="0px 0 20px 0"
 						text-align="left"
 						font="--headline3"
 						display="inline-block"
@@ -71,6 +72,7 @@ export default (() => {
 						sm-align-self="center"
 						sm-margin="0px 0 0 0"
 						sm-font="normal 600 24px/1.2 Montserrat, sans-serif"
+						md-margin="0 0 0px 0"
 					>
 						Privat
 						<Span color="--primary" sm-font="600 24px/38.4px Montserrat, sans-serif">
@@ -804,7 +806,7 @@ export default (() => {
 						sm-flex="0 1 auto"
 						sm-width="30%"
 					>
-						<Override slot="StackItemContent" align-items="center" />
+						<Override slot="StackItemContent" align-items="center" sm-align-self="center" />
 						<Image
 							width="150px"
 							height="100px"
@@ -812,6 +814,9 @@ export default (() => {
 							display="inline-block"
 							padding="0px 10px 0px 0px"
 							quarkly-title="logo"
+							sm-flex="0 1 auto"
+							sm-align-self="center"
+							sm-width="25%"
 						/>
 						<Text
 							margin="0"
@@ -820,6 +825,10 @@ export default (() => {
 							font="normal 600 42px/1.2 --fontFamily-googleMontserrat"
 							display="inline-block"
 							quarkly-title="logoname"
+							sm-width="40%"
+							sm-font="normal 600 32px/1.2 --fontFamily-googleMontserrat"
+							sm-align-self="center"
+							sm-margin="0px 0 0px 0"
 						>
 							Privat
 							<Span color="--primary">
